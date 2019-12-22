@@ -1,0 +1,71 @@
+/********************* GENERALNA PODEŠAVANJA ***************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    background: url("./images/background2.jpg") no-repeat center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    padding: 30px 50px;
+}
+
+/*********************** NASLOV **************************************/
+
+.mainHeading {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    padding: 10px 0 20px 0;
+}
+
+/************************ SELECT BOX *********************************/
+
+.selectBox {
+    width: 300px;
+    height: 50px;
+    outline: none;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+/************************* INFO BOX ********************************/
+
+.infoBox {
+    width: 60%;
+    min-height: 400px;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.personName {
+    text-align: center;
+    padding: 5px 0 10px 0;
+    font-size: 20px;
+    height: 50px;
+}
+
+.directFriendsContainer h3, .friendsOfFriendsContainer h3, .suggestedFriendsContainer h3 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+ul {
+    min-height: 80px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
