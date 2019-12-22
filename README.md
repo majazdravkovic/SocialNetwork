@@ -7,3 +7,5 @@ Use dataset provided and develop a Web app or an API, which provides functionali
 • Direct friends: those people who are directly connected to the chosen user;
 • Friends of friends: those who are two steps away from the chosen user but not directly connected to the chosen user;
 • Suggested friends: people in the group who know 2 or more direct friends of the chosen user but are not directly connected to the chosen user;
+
+https://majazdravkovic.github.io/SocialNetwork/ 
