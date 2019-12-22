@@ -69,3 +69,13 @@ ul li {
     padding: 5px 10px;
 }
 
+/************************* MEDIA QUERY ***********************************/
+
+@media only screen and (max-width: 800px) {
+
+    .infoBox {
+        width: 100%;
+    }
+    
+}
+
